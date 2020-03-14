@@ -1,0 +1,19 @@
+#navbar {
+    postion: fixed;
+
+}
+@media (max-width: 600px) { 
+          #nav-bar {
+            display: none;
+          }
+        }
+        @media (min-width: 700px){
+            #video-container {
+                padding-top: initial;
+            }
+            #video {
+                position: static;
+                height: 315px;
+                width: 560px;
+            }
+        }
